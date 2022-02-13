@@ -1,0 +1,10 @@
+.container {
+    margin-top: 10%;
+}
+#show-card{
+    display: none;
+}
+
+.show-style{
+    color: #2666CF
+}
