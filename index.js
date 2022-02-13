@@ -18,9 +18,9 @@ btn.addEventListener('click', function(){
 
         showCard.style.display = 'block'
         if(result >= 18){
-            show.innerHTML = `<h5  class="text-center">You are ${result} years old.</h5><h5  class="text-center">And you are adult.</h5>`
+            show.innerHTML = `<h5  class="text-center">You are ${result} years old.</h5><h5  class="text-center">And you are an adult.</h5>`
         } else {
-            show.innerHTML = `<h5  class="text-center">You are ${result} years old.</h5  class="text-center"><h5>And you are not an adult.</h5>`
+            show.innerHTML = `<h5  class="text-center">You are ${result} years old.</h5  class="text-center"><h5>And you are not child yet.</h5>`
         }
         show.className = 'show-style'
     }
